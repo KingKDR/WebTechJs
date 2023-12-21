@@ -1,0 +1,367 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+section{
+    width: 100%;
+    height: 90dvh;
+    /* background: #818181; */
+    
+}
+
+
+.hsec{
+    background-image: url("https://www.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton--BC_COMMERCIAL_HOLIDAY2023_IMGADD_CROP_2048X1152_2.jpg?wid=2400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90dvh;
+    margin-top: 10dvh;
+    /* background-position: 50%;  */
+}
+.logodiv{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+}
+img{
+    margin: 5%;
+    height: 3.5em;
+    width: auto;
+}
+.ndiv div{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    /* background: #000; */
+}
+@media (max-width: 768px) {
+    section{
+        width: 100%;
+        height: 100dvh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+nav{
+    width: 100%;
+    height: 10dvh;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background: #ffffff;
+    /* margin-bottom: 10dvh; */
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-right: 5rem; */
+    /* background: #cccccc; */
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .search__input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: none;
+    color: #646464;
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    width: 12em;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+  }
+  
+  .search__input:hover, .search__input:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .search__input:focus {
+    outline: none;
+    background-color: #f0eeee;
+  }
+  
+  .search__input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+  }
+  
+  .search__input:focus + .search__button {
+    background-color: #f0eeee;
+  }
+  
+  .search__button {
+    border: none;
+    background-color: #f4f2f2;
+    margin-top: .1em;
+  }
+  
+  .search__button:hover {
+    cursor: pointer;
+  }
+  
+  .search__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #b4b4b4;
+  }
+
+  .ndiv{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+  }
+
+  .cardbox{
+    width: 100%;
+    height: 50dvh;
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 5rem; */
+    /* margin: 4em; */
+  }
+
+  .adiv{
+    width: 100%;
+    height: 40dvh;
+    /* background: #cccccc; */
+  }
+  .cardbox div{
+    height: 40dvh;
+    width: 40dvh;
+    /* padding: 20px 20px; */
+    
+  }
+
+  .card img{
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    border: #000000 solid 1px;
+    padding: 50px;
+  }
+
+  .cardbox div:nth-child(1){
+    /* background: #916969; */
+    background-image: url();
+  }
+  .cardbox div:nth-child(2){
+    /* background: #698791; */
+    background-image: url();
+  }
+  .cardbox div:nth-child(3){
+    /* background: #699173; */
+    background-image: url();
+  }
+
+  
+  .adiv1{
+     height: inherit;
+    margin-top: 4em;
+    background-image: url("https://t3.ftcdn.net/jpg/05/86/43/00/360_F_586430089_JeJDQKXnd6bWxxV0epTYT9RMebIPDfHy.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0%;
+    align-items: center;
+    /* border: #000000 solid 4px; */
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .adiv1 h1{
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 50%;
+  }
+
+  .cta {
+    border: none;
+    background: none;
+    margin-left: 50%;
+    margin-top: 0em;
+  }
+  
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .shb{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    width: inherit;
+    color: #2a2a2acf;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .card:hover{
+    scale: 0.9;
+    transition: 0.5s ease-in-out;
+  }
+
+  .comp{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4em;
+  }
+
+  .h1abt{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: -1em;
+    color: #373737;
+  }
+
+  .abt{
+    height: 40dvh;
+    width: 40dvh;
+    /* background: #9b9b9b; */
+    margin: 20px 20px;
+    /* border: #000000 solid 1px; */
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0000008a;
+  }
+
+  .abt img{
+    height: 10dvh;
+    width: auto;
+  }
+
+  .abt h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #2a2a2ab3;
+  }
+  .abt p{
+    color: #2a2a2ac0;
+
+  }
+
+  footer{
+    background: #000000;
+    height: 30dvh;
+    width: 100%;
+    margin-top: 3em;
+  }
+
+  footer h2{
+    color: #ffffff;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+
+  footer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1em;
+  }
+  .fdiv{
+    display: flex;
+    flex-direction: column;
+    /* background: #210b0b; */
+    width: 40dvh;
+    height: 20dvh;
+    justify-content: start;
+  }
+
+  .fdiv ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .fdiv ul li{
+    text-align: left;
+    color: #fafafae1;
+    display: flex;
+    font-size: 17px;
+  }
+
+  .fdiv ul li img{
+    height: 17px;
+    width: 17px;
+    background: #ffffff;
+    border-radius: 7px;
+  }
+
+  .creator{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: end;
+  }
+  .creator p{
+
+    color: #ffffff;
+  }
